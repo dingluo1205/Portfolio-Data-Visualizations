@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>US Flight Map - Ding Luo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title"></span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic1.html">US Flight Map</a></li>
+							<li><a href="generic2.html">Twitter Sentiment Analysis</a></li>
+							<li><a href="generic3.html">Starbucks Vendor Performance Analysis</a></li>
+                            <li><a href="generic4.html">Vaccine Data Viz</a></li>
+                            <li><a href="generic5.html">China Map Viz on Mobility Data</a></li>
+                            <li><a href="generic6.html">Survey Data Vis Design</a></li>
+                            <li><a href="generic7.html">Product Analysis</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>US Flight Map</h1> 
+                            <p> <a href="https://dingluo1205.github.io/D3-FlightMapVis/assignment.html">Link to US Flight Map Vis</a> </p>
+							<span class="image main"><img src="images/usmap1.png" alt="" /></span>
+							<p>
+                                In this interactive web-based visualizatoin, I used data from Bureau of Transportation Statictics about 443,282 cases of US flight data in January 2016.
+                                The main visualization is a flight map which shows all the airports and flight routines in US. 
+                            </p>
+                            <p>
+                                <b> Design Elements: </b>
+                                <ul>
+                                    <li>
+                                Each circle represents an airport. Sizes and colors are used to classify the airports into three sizes: large size, medium size and small size based on the total flight number of this airport in this month. 
+                                    </li>
+                                    <li>
+                                        Then, the users can hover through each circle. When hovering one airport, the map will show all the flight routes that contain this airport. 
+                                       Also, users could see more detailed information about the performance of this airport like total number of flight, average arrival delay rate, arrival delay rate, arrival delay time and departure delay time.
+                                    </li>
+                            </p>
+                            <!--<p>-->
+                                <span class="image main"><img src="images/usmap2.png" alt="" /></span>
+                                 <p>
+                                <p>
+                                    The second part of this visualization contains more analytical tools. It includes a bar chart about carrier performance and a calendar view  which showed the detailed delay time of each time interval every day in January.
+                                </p>
+								<p>
+                                <b> Design Elements: </b>
+                                <ul>
+                                    <li>
+                                The type of airport means that you want to explore the airport as the departure or arrival airport. In my dataset, I have the data of both departure delay and arrival delay. Although these two types of delay always link together and have no significant difference, it is better to classify them into two different groups. The second dropdown is the carrier. Users can choose different carriers to see their performances in this airport. 
+                                    </li>
+                                    <li>
+                                When hovering through each point in Calendar view, users can see the detailed information about the delay time in this specific time interval.
+                                    </li>
+                                    <li>
+                                        Under the calendar view, I added the legend of color encoding which could help users to know the meanings of different colors. Since I only care about the delay, I put the delay time (<=0) as one group which include not only on-time flight but also those that arrive or depart in advance. As for the colors I chose, since it is common that red is represented as the high delay rate, I used dark red to represent the highest delay rate and then used two color hue to show the difference.
+                                    </li>
+                                </ul>
+								</p>
+
+
+
+                            </p>
+
+
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
