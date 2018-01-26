@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Vaccine Data Vis - Ding Luo</title>
+		<title>Offline Grocery Store Density Map - Ding Luo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -45,10 +45,11 @@
 							<li><a href="generic1.html">US Flight Map</a></li>
 							<li><a href="generic2.html">Twitter Sentiment Analysis</a></li>
 							<li><a href="generic3.html">Starbucks Vendor Performance Analysis</a></li>
-                            <li><a href="generic4.html">Vaccine Data Viz</a></li>
-                            <li><a href="generic5.html">China Map Viz on Mobility Data</a></li>
-                            <li><a href="generic6.html">Survey Data Vis Design</a></li>
-                            <li><a href="generic7.html">Product Analysis</a></li>
+							<li><a href="generic4.html">Offline grocery store density map</a></li>
+							<li><a href="generic5.html">Product Analysis</a></li>
+                            <li><a href="generic6.html">China Map Viz on Mobility Data</a></li>
+                            <li><a href="generic7.html">Vaccine Data Viz</a></li>
+                            <li><a href="generic8.html">Survey Data Vis Design</a></li>
 							<li><a href="elements.html">Elements</a></li>
 						</ul>
 					</nav>
@@ -56,29 +57,28 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Vaccine Data Visualization</h1> 
-                            <p><span class="image left"><img src="images/vac02.jpg" alt="" /> </span> </img>
-                            As a data analyst intern at <a href="https://www.path.org/">PATH</a> (a global health organization), 
-                            I helped our team evaluate the outcome of our digital 
-                            immunization system in two African countries. <br>
-                            One of the data I dealt with was about vaccine data. 
-                            We have data for all the children in several districts including their birthday, gender and time when they 
-                            received certain type of vaccine. Then we need to visualize these data to analyze how many children got their
-                            vaccines in time (timeliness analysis). <br>
-                            However, the recommended immunization schedules (either by week or day or month) 
-                            vary from one vaccine to another. We need to visualize the results by 
-                            vaccine type. <br>
-                            Then we used Tableau to visualize our results, which could be easily shared through the whole organization
-                            in different countries by Tableau server. 
-                            <br>
+							<h1>Offline Grocery Store Density Analysis</h1> 
+                            <!--<span class="image left"><img src="images/vac02.jpg" alt="" /> </span> </img>-->
+							<p>
+							Currently, I'm working with<a href="https://www.amazon.com/AmazonFresh/b?ie=UTF8&node=10329849011"> AmazonFresh </a>
+							on <b>Customer Online Grocery Shopping Behavior Analysis </b>.
+							Our key research question is to analyze the relationship 
+							between density of offline grocery store and customers’ adoption of online grocery shopping in 22 big cities. 
+							</p>
+							<p>
+								In this page, I'm going to show how I used  <a href="https://www.yelp.com/developers">
+								Yelp Fusion Api </a> to pull location data of grocey stores and visualized the results using Google Map API.
+
+							</p>
+    
+              
                             </p>
                             <p> 
-                                Here is one dashboard I created in <b>Tableau</b> for DPT Vaccine:
+                                In order to better show store density in each area, I used heat map. Here is the 
+							   offline grocery store density in Seattle. 
                             </p>
-                            <p><span class="image fit"><img src="images/vac03.jpg" alt="" /></span>
-                            The first part of this dashboard is about overall information about our data. Then I drew two 
-                            line charts about DPT1 and DPT3, since they belong to one group of vaccine but need to be taken 
-                            at two times. Then I set gender and district as filters. 
+                            <p><span class="image fit"><img src="images/grocery2.png" alt="" /></span>
+                       
                             </p>
 
 

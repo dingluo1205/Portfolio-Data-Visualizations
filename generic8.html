@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Internship Story - Ding Luo</title>
+		<title>Survey Data Visualization Design - Ding Luo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -45,10 +45,11 @@
 							<li><a href="generic1.html">US Flight Map</a></li>
 							<li><a href="generic2.html">Twitter Sentiment Analysis</a></li>
 							<li><a href="generic3.html">Starbucks Vendor Performance Analysis</a></li>
-                            <li><a href="generic4.html">Vaccine Data Viz</a></li>
-                            <li><a href="generic5.html">China Map Viz on Mobility Data</a></li>
-                            <li><a href="generic6.html">Survey Data Vis Design</a></li>
-                            <li><a href="generic7.html">Product Analysis</a></li>
+							<li><a href="generic4.html">Offline grocery store density map</a></li>
+							<li><a href="generic5.html">Product Analysis</a></li>
+                            <li><a href="generic6.html">China Map Viz on Mobility Data</a></li>
+                            <li><a href="generic7.html">Vaccine Data Viz</a></li>
+                            <li><a href="generic8.html">Survey Data Vis Design</a></li>
 							<li><a href="elements.html">Elements</a></li>
 						</ul>
 					</nav>
@@ -56,41 +57,29 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Internship Story</h1>    
-                             <p> <a href="https://ischool.uw.edu/news/2017/09/internships-give-msim-student-hands-experience-health-data">Link to News</a> </p> 
-                             <p><h3> Internships give MSIM student hands-on experience with health data</h3> </p>                 
-
-                            <span class="image main"><img src="images/intern2.png" alt="" /></span>
-                            <p> <b>Full Content: </b>
+							<h1>Vaccine Data Visualization</h1> 
+                            <p><span class="image left"><img src="images/vac02.jpg" alt="" /> </span> </img>
+                            As a data analyst intern at <a href="https://www.path.org/">PATH</a> (a global health organization), 
+                            I helped our team evaluate the outcome of our digital 
+                            immunization system in two African countries. <br>
+                            One of the data I dealt with was about vaccine data. 
+                            We have data for all the children in several districts including their birthday, gender and time when they 
+                            received certain type of vaccine. Then we need to visualize these data to analyze how many children got their
+                            vaccines in time (timeliness analysis). <br>
+                            However, the recommended immunization schedules (either by week or day or month) 
+                            vary from one vaccine to another. We need to visualize the results by 
+                            vaccine type. <br>
+                            Then we used Tableau to visualize our results, which could be easily shared through the whole organization
+                            in different countries by Tableau server. 
+                            <br>
                             </p>
-
-
                             <p> 
-                                The health-care industry is always adapting to new technology. Examples include a HealthMap team using Twitter data to track cholera after the 2010 earthquake in Haiti, and a University of Pennsylvania study finding a correlation between the risk of heart disease and the expression of negative emotions such as anger, stress and fatigue in a county population’s tweets. <br>
-
-Ding Luo, a full-time Master of Science in Information Management student, learned that hard work is involved in setting up the data for these kinds of studies. She interned with two health-care organizations this summer as a Graduate Research Assistant at the Institute for Health Metrics and Evaluation (IHME) and a Data Analysis Intern at PATH – both in Seattle.<br>
-
-Using the public information from Twitter’s API, Luo’s IHME team identified demographic information, such as race and gender, from randomly selected Twitter users. Twitter does not require their users to provide broad demographic information, so the researchers looked to user profile information, such as name and location, to make inferences about race and gender.<br>
-
-IHME sees its role as “creating the most complete and up-to-date roadmap to help policymakers and donors determine how best to help people live longer, healthier lives.” They get into the details of data.
-<br>
-“IHME wants to use Twitter to analyze the data of people who say they have a cold or some other disease. It will take less time than regular data collection,” says Luo.
-<br>
-Luo had no previous experience in data science or data modeling prior to the 3-month IHME internship, so she learned how to gather and label data and build predictive models. She plans to take the Data Science and Business Intelligence specializations in her MSIM program next year, so she selected her internships to give her relevant hands-on experience.
-<br>
-Her PATH internship involved visualizing data for better communication to the public. According to its website, PATH is the leader in global health innovation. It’s an international nonprofit organization that saves lives and improves health, especially among women and children.
-<br>
-Luo’s team at PATH looked at survey data, taken at different phases in two African countries’ health projects, and analyzed it to determine success. The data were uploaded to a Tableau dashboard to allow for easy visualization of the project impact.
-<br>
-The Tableau skills she learned from her classes transferred to her PATH internship. “PATH just stared using Tableau and they did not have a very standard format for dashboards, so I could easily create a professional format for them. My new supervisor was really impressed,” says Luo.
-<br>
-The PATH internship was less technical but equally important, as it helped Luo understand the importance of communicating data to stakeholders – for example, Bill Gates used the data when he visited the PATH project in Tanzania in September.
-<br>
-Luo also liked the culture at PATH. Her team shared data with other teams and offered their knowledge widely. She admired the collaborative attitude.
-<br>
-“You are not just doing something to help the organization, but also making some contribution to society and other countries. It gives me more motivation for my work when I think about the impact of our projects,” says Luo.
-<br>
-
+                                Here is one dashboard I created in <b>Tableau</b> for DPT Vaccine:
+                            </p>
+                            <p><span class="image fit"><img src="images/vac03.jpg" alt="" /></span>
+                            The first part of this dashboard is about overall information about our data. Then I drew two 
+                            line charts about DPT1 and DPT3, since they belong to one group of vaccine but need to be taken 
+                            at two times. Then I set gender and district as filters. 
                             </p>
 
 
